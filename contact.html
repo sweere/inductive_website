@@ -49,7 +49,9 @@
           Namecheap shared hosting does not include server-side form processing.
           Formspree handles email delivery without needing PHP or a backend.
         -->
-        <form id="contact-form" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+		<form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+		  <input type="hidden" name="access_key" value="d807f155-54a6-4c14-8348-3f7738a9d347">
+		  <input type="hidden" name="subject" value="New Contact — Inductive LLC">
 
           <div class="form-group">
             <label for="name">Name</label>
